@@ -19,7 +19,7 @@ const dia = tempo.getDay()
 const hora = tempo.getHours()
 const min = tempo.getMinutes()
 
-function comprimento(){
+function cumprimento(){
     const cumprimento = document.querySelector('#cumprimento')
     if(hora < 12){
         cumprimento.innerHTML = 'Gih Stilus- Bom dia!'
@@ -30,4 +30,4 @@ function comprimento(){
     }
 }
 
-comprimento()
+cumprimento()
