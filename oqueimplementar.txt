@@ -1,0 +1,1 @@
+1º - Implementar uma função que dispara um p ou H que fala se está aberto ou fechado.
