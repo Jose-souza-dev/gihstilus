@@ -23,7 +23,7 @@ function comprimento(){
     const cumprimento = document.querySelector('#cumprimento')
     if(hora < 12){
         cumprimento.innerHTML = 'Gih Stilus- Bom dia!'
-    }else if(hora <= 18){
+    }else if(hora < 19){
         cumprimento.innerHTML = 'Gih Stilus - Boa tarde!'
     }else{
         cumprimento.innerHTML = 'Gih Stilus - Boa noite!'
