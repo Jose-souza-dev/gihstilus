@@ -22,7 +22,7 @@ const min = tempo.getMinutes()
 function cumprimento(){
     const cumprimento = document.querySelector('#cumprimento')
     if(hora < 12){
-        cumprimento.innerHTML = 'Gih Stilus- Bom dia!'
+        cumprimento.innerHTML = 'Gih Stilus - Bom dia!'
     }else if(hora <= 18){
         cumprimento.innerHTML = 'Gih Stilus - Boa tarde!'
     }else{
@@ -31,3 +31,15 @@ function cumprimento(){
 }
 
 cumprimento()
+
+// Redimencionar 
+
+function display(){
+    const tamanhoBody = document.getElementsByTagName("body")
+    tamanhoBody.style.width = '601px'
+    if(tamanhoBody == '601px'){
+        alert('Deu certo!')
+    }else{
+        alert('Não deu certo!')
+    }
+}
